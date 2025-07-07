@@ -1,5 +1,0 @@
-CREATE DATABASE IF NOT EXISTS dbhidro_suhu;
-CREATE DATABASE IF NOT EXISTS dbhidro_tds;
-
-
-
