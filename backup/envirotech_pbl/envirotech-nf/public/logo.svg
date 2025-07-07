@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" fill="none">
+  <!-- Main Leaf Shape -->
+  <path d="M140 30C180 50 220 110 220 180C220 180 170 240 140 240C110 240 60 180 60 180C60 110 100 50 140 30Z" fill="url(#leaf-gradient)"/>
+  
+  <!-- Small Left Leaf -->
+  <path d="M90 210C70 200 55 170 55 140C55 140 85 110 100 110C115 110 140 140 140 140C140 170 110 200 90 210Z" fill="#1DD1AD"/>
+  
+  <!-- Small Right Leaf -->
+  <path d="M190 210C210 200 225 170 225 140C225 140 195 110 180 110C165 110 140 140 140 140C140 170 170 200 190 210Z" fill="#1DD1AD"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M140 80L140 50" stroke="#333" stroke-width="3"/>
+  <path d="M140 120L140 150" stroke="#333" stroke-width="3"/>
+  <path d="M140 190L140 220" stroke="#333" stroke-width="3"/>
+  <path d="M100 100L120 120" stroke="#333" stroke-width="3"/>
+  <path d="M180 100L160 120" stroke="#333" stroke-width="3"/>
+  <path d="M90 150L120 150" stroke="#333" stroke-width="3"/>
+  <path d="M190 150L160 150" stroke="#333" stroke-width="3"/>
+  <path d="M100 180L120 160" stroke="#333" stroke-width="3"/>
+  <path d="M180 180L160 160" stroke="#333" stroke-width="3"/>
+  
+  <!-- Circuit Nodes -->
+  <circle cx="140" cy="50" r="6" fill="#333"/>
+  <circle cx="140" cy="120" r="6" fill="#333"/>
+  <circle cx="140" cy="190" r="6" fill="#333"/>
+  <circle cx="100" cy="100" r="6" fill="#333"/>
+  <circle cx="180" cy="100" r="6" fill="#333"/>
+  <circle cx="90" cy="150" r="6" fill="#333"/>
+  <circle cx="190" cy="150" r="6" fill="#333"/>
+  <circle cx="100" cy="180" r="6" fill="#333"/>
+  <circle cx="180" cy="180" r="6" fill="#333"/>
+  
+  <!-- Sensor Icons -->
+  <!-- Temperature Sensor (Thermometer) -->
+  <rect x="130" y="40" width="20" height="30" rx="5" fill="white" stroke="#333" stroke-width="2"/>
+  <rect x="137" y="45" width="6" height="15" rx="3" fill="#FF6B6B"/>
+  <line x1="137" y1="65" x2="143" y2="65" stroke="#333" stroke-width="2"/>
+  
+  <!-- pH Sensor (Flask) -->
+  <path d="M80 90C80 95 86 100 90 100C94 100 100 95 100 90L93 75L87 75L80 90Z" fill="white" stroke="#333" stroke-width="2"/>
+  <path d="M87 75L93 75" stroke="#333" stroke-width="2"/>
+  <path d="M83 85L97 85" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- TDS Sensor (Water Drop) -->
+  <path d="M190 150C190 155 186 160 180 160C174 160 170 155 170 150C170 145 180 135 180 135C180 135 190 145 190 150Z" fill="white" stroke="#333" stroke-width="2"/>
+  <path d="M175 150C175 152.5 177 155 180 155" stroke="#9333EA" stroke-width="1.5"/>
+  
+  <!-- Microcontroller -->
+  <rect x="125" y="110" width="30" height="30" rx="2" fill="white" stroke="#333" stroke-width="2"/>
+  <line x1="130" y1="120" x2="150" y2="120" stroke="#333" stroke-width="1.5"/>
+  <line x1="130" y1="125" x2="145" y2="125" stroke="#333" stroke-width="1.5"/>
+  <line x1="130" y1="130" x2="148" y2="130" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Small Icons -->
+  <rect x="90" y="170" width="20" height="15" rx="2" fill="white" stroke="#333" stroke-width="1.5"/>
+  <line x1="93" y1="175" x2="107" y2="175" stroke="#333" stroke-width="1"/>
+  <line x1="93" y1="180" x2="105" y2="180" stroke="#333" stroke-width="1"/>
+  
+  <rect x="170" y="170" width="20" height="15" rx="2" fill="white" stroke="#333" stroke-width="1.5"/>
+  <circle cx="175" cy="177.5" r="2" fill="#333"/>
+  <circle cx="185" cy="177.5" r="2" fill="#333"/>
+  
+  <!-- Dashboard Icon -->
+  <rect x="125" y="180" width="30" height="20" rx="2" fill="white" stroke="#333" stroke-width="1.5"/>
+  <line x1="130" y1="185" x2="150" y2="185" stroke="#333" stroke-width="1"/>
+  <line x1="130" y1="190" x2="145" y2="190" stroke="#333" stroke-width="1"/>
+  <line x1="130" y1="195" x2="148" y2="195" stroke="#333" stroke-width="1"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="leaf-gradient" x1="60" y1="30" x2="220" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFEC3F"/>
+      <stop offset="0.5" stop-color="#7AE13E"/>
+      <stop offset="1" stop-color="#00B074"/>
+    </linearGradient>
+  </defs>
+</svg> 
